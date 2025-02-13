@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="man.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+  <body>
+    <!-- -----------------header---------------- -->
+    <header>
+      <div class="logo">
+        <span>An<b>mol</b></span> <span><b>sam</b>rat</span>
+      </div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="menu-icon" class="ri-menu-fill" onclick="openmenu()"></div>
+    </header>
+    <!-- ------------------cursor and locomotive scroll-------------------------- -->
+    <div id="cursor"></div>
+    <div id="main">
+      <!-- ---------------------responsive navbar------------------------ -->
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- ---------------------------home----------------------- -->
+      <section id="home" class="home">
+        <div class="home-content">
+          <h1>Hi! I'm Samrat Ojha</h1>
+          <div class="change-text">
+            <h3>And I'm</h3>
+            <h3>
+              <span class="word">Web&nbsp;Designer</span>
+              <span class="word">Frontend&nbsp;Developer</span>
+              <!-- <span class="word">UX/Ui&nbsp;Developer</span>
+              <span class="word">Graphics&nbsp;Designer</span> -->
+            </h3>
+          </div>
+
+          <p>
+            A front-end developer is a type of software developer who
+            specializes in creating and designing the user interface (UI) and
+            user experience (UX) of websites and web applications.
+          </p>
+          <div class="infor-box">
+            <div class="email-info">
+              <h5>Email:</h5>
+              <span>john123@gmail.com</span>
+            </div>
+            <div class="behance-info">
+              <h5>Behance:</h5>
+              <span>behance.net/john</span>
+            </div>
+          </div>
+
+          <div class="btn-box btu">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#" class="btn">Hire Me Now</a>
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-dribbble-fill"></i></a>
+          </div>
+        </div>
+        <div class="home-image">
+          <div class="img-box">
+            <img src="gh.png" />
+          </div>
+          <div class="liquid-shape">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="100%"
+              id="blobSvg"
+            >
+              <path fill="#12f7ff">
+                <animate
+                  attributeName="d"
+                  dur="20000ms"
+                  repeatCount="indefinite"
+                  values="
+                        M417,293Q414,336,397,387.5Q380,439,327,444.5Q274,450,218.5,464.5Q163,479,118.5,442.5Q74,406,54.5,354.5Q35,303,22.5,247Q10,191,69,166.5Q128,142,157.5,113.5Q187,85,231,65.5Q275,46,315,72.5Q355,99,389,129Q423,159,421.5,204.5Q420,250,417,293Z;
+
+                        M452,303.5Q453,357,422,406Q391,455,334.5,466Q278,477,226.5,462.5Q175,448,146,408Q117,368,94,331Q71,294,74.5,251Q78,208,97,170Q116,132,154.5,115Q193,98,232.5,81.5Q272,65,316,77.5Q360,90,414,113Q468,136,459.5,193Q451,250,452,303.5Z;
+
+                        M455,294.5Q419,339,390.5,376Q362,413,317.5,426Q273,439,226.5,436.5Q180,434,135.5,412.5Q91,391,94.5,339Q98,287,93,248.5Q88,210,109.5,177.5Q131,145,147,82Q163,19,218,40Q273,61,318,74Q363,87,415.5,111.5Q468,136,479.5,193Q491,250,455,294.5Z;
+
+                        M443.5,301.5Q446,353,396,371Q346,389,311.5,429Q277,469,224,463.5Q171,458,117,436.5Q63,415,56.5,357Q50,299,38,247Q26,195,67,159.5Q108,124,147.5,104.5Q187,85,230,74.5Q273,64,329,59Q385,54,398,110Q411,166,426,208Q441,250,443.5,301.5Z;
+
+                        M431,303Q453,356,412.5,391.5Q372,427,324,445.5Q276,464,235,430Q194,396,137.5,398Q81,400,75.5,347Q70,294,57,246.5Q44,199,85,169.5Q126,140,160.5,123Q195,106,235.5,71Q276,36,308.5,77Q341,118,390.5,134Q440,150,424.5,200Q409,250,431,303Z;
+
+                        M454.04543,300.9798Q444.9192,351.9596,399.75759,377.19698Q354.59598,402.43437,311.73739,405.21216Q268.87879,407.98995,217.24749,440Q165.61618,472.01005,121.79296,436.95955Q77.96974,401.90905,60.39904,351.59593Q42.82834,301.28282,53.03537,252.67171Q63.24241,204.0606,72.09598,152.06568Q80.94954,100.07075,135.46467,95.99497Q189.9798,91.9192,232.9899,62.9495Q276,33.9798,307.5101,77.4697Q339.0202,120.9596,372.57578,144.20201Q406.13135,167.44442,434.65151,208.72221Q463.17166,250,454.04543,300.9798Z;
+
+                        M473.5,307.5Q469,365,414.5,387.5Q360,410,318.5,441.5Q277,473,223,469Q169,465,120,436.5Q71,408,85.5,347.5Q100,287,72,243Q44,199,74.5,160Q105,121,134.5,72Q164,23,222,14Q280,5,315.5,54.5Q351,104,406.5,121.5Q462,139,470,194.5Q478,250,473.5,307.5Z;
+
+                        M464,298Q432,346,409.5,397.5Q387,449,331.5,455Q276,461,223,461Q170,461,141.5,416.5Q113,372,93.5,332.5Q74,293,69,248.5Q64,204,66,146Q68,88,132.5,99Q197,110,237.5,63Q278,16,332,34Q386,52,411.5,102Q437,152,466.5,201Q496,250,464,298Z;
+
+                        M438.5,293Q413,336,392,381Q371,426,320.5,421.5Q270,417,224,428.5Q178,440,126,423Q74,406,64.5,352Q55,298,63,252Q71,206,74,151Q77,96,126,74.5Q175,53,222,74Q269,95,312,96.5Q355,98,398.5,123.5Q442,149,453,199.5Q464,250,438.5,293Z;
+
+                        M420.5,299Q436,348,408,393Q380,438,327,444.5Q274,451,227,443Q180,435,123.5,423.5Q67,412,66,353.5Q65,295,81.5,254Q98,213,96,162.5Q94,112,132,75Q170,38,220.5,56.5Q271,75,330.5,61Q390,47,402,105.5Q414,164,409.5,207Q405,250,420.5,299Z;
+
+                        M434,301.5Q446,353,404,382.5Q362,412,320,445Q278,478,230.5,452.5Q183,427,147.5,399.5Q112,372,70.5,338.5Q29,305,46,254.5Q63,204,93,170.5Q123,137,151.5,101.5Q180,66,229,43Q278,20,330,39Q382,58,391.5,114.5Q401,171,411.5,210.5Q422,250,434,301.5Z;
+
+                        M417,293Q414,336,397,387.5Q380,439,327,444.5Q274,450,218.5,464.5Q163,479,118.5,442.5Q74,406,54.5,354.5Q35,303,22.5,247Q10,191,69,166.5Q128,142,157.5,113.5Q187,85,231,65.5Q275,46,315,72.5Q355,99,389,129Q423,159,421.5,204.5Q420,250,417,293Z;
+                        "
+                ></animate>
+              </path>
+            </svg>
+          </div>
+          <div class="liquid-shape">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="100%"
+              id="blobSvg"
+            >
+              <path fill="#0fabffd4">
+                <animate
+                  attributeName="d"
+                  dur="20000ms"
+                  repeatCount="indefinite"
+                  values="
+                        M417,293Q414,336,397,387.5Q380,439,327,444.5Q274,450,218.5,464.5Q163,479,118.5,442.5Q74,406,54.5,354.5Q35,303,22.5,247Q10,191,69,166.5Q128,142,157.5,113.5Q187,85,231,65.5Q275,46,315,72.5Q355,99,389,129Q423,159,421.5,204.5Q420,250,417,293Z;
+
+                        M452,303.5Q453,357,422,406Q391,455,334.5,466Q278,477,226.5,462.5Q175,448,146,408Q117,368,94,331Q71,294,74.5,251Q78,208,97,170Q116,132,154.5,115Q193,98,232.5,81.5Q272,65,316,77.5Q360,90,414,113Q468,136,459.5,193Q451,250,452,303.5Z;
+
+                        M455,294.5Q419,339,390.5,376Q362,413,317.5,426Q273,439,226.5,436.5Q180,434,135.5,412.5Q91,391,94.5,339Q98,287,93,248.5Q88,210,109.5,177.5Q131,145,147,82Q163,19,218,40Q273,61,318,74Q363,87,415.5,111.5Q468,136,479.5,193Q491,250,455,294.5Z;
+
+                        M443.5,301.5Q446,353,396,371Q346,389,311.5,429Q277,469,224,463.5Q171,458,117,436.5Q63,415,56.5,357Q50,299,38,247Q26,195,67,159.5Q108,124,147.5,104.5Q187,85,230,74.5Q273,64,329,59Q385,54,398,110Q411,166,426,208Q441,250,443.5,301.5Z;
+
+                        M431,303Q453,356,412.5,391.5Q372,427,324,445.5Q276,464,235,430Q194,396,137.5,398Q81,400,75.5,347Q70,294,57,246.5Q44,199,85,169.5Q126,140,160.5,123Q195,106,235.5,71Q276,36,308.5,77Q341,118,390.5,134Q440,150,424.5,200Q409,250,431,303Z;
+
+                        M454.04543,300.9798Q444.9192,351.9596,399.75759,377.19698Q354.59598,402.43437,311.73739,405.21216Q268.87879,407.98995,217.24749,440Q165.61618,472.01005,121.79296,436.95955Q77.96974,401.90905,60.39904,351.59593Q42.82834,301.28282,53.03537,252.67171Q63.24241,204.0606,72.09598,152.06568Q80.94954,100.07075,135.46467,95.99497Q189.9798,91.9192,232.9899,62.9495Q276,33.9798,307.5101,77.4697Q339.0202,120.9596,372.57578,144.20201Q406.13135,167.44442,434.65151,208.72221Q463.17166,250,454.04543,300.9798Z;
+
+                        M473.5,307.5Q469,365,414.5,387.5Q360,410,318.5,441.5Q277,473,223,469Q169,465,120,436.5Q71,408,85.5,347.5Q100,287,72,243Q44,199,74.5,160Q105,121,134.5,72Q164,23,222,14Q280,5,315.5,54.5Q351,104,406.5,121.5Q462,139,470,194.5Q478,250,473.5,307.5Z;
+
+                        M464,298Q432,346,409.5,397.5Q387,449,331.5,455Q276,461,223,461Q170,461,141.5,416.5Q113,372,93.5,332.5Q74,293,69,248.5Q64,204,66,146Q68,88,132.5,99Q197,110,237.5,63Q278,16,332,34Q386,52,411.5,102Q437,152,466.5,201Q496,250,464,298Z;
+
+                        M438.5,293Q413,336,392,381Q371,426,320.5,421.5Q270,417,224,428.5Q178,440,126,423Q74,406,64.5,352Q55,298,63,252Q71,206,74,151Q77,96,126,74.5Q175,53,222,74Q269,95,312,96.5Q355,98,398.5,123.5Q442,149,453,199.5Q464,250,438.5,293Z;
+
+                        M420.5,299Q436,348,408,393Q380,438,327,444.5Q274,451,227,443Q180,435,123.5,423.5Q67,412,66,353.5Q65,295,81.5,254Q98,213,96,162.5Q94,112,132,75Q170,38,220.5,56.5Q271,75,330.5,61Q390,47,402,105.5Q414,164,409.5,207Q405,250,420.5,299Z;
+
+                        M434,301.5Q446,353,404,382.5Q362,412,320,445Q278,478,230.5,452.5Q183,427,147.5,399.5Q112,372,70.5,338.5Q29,305,46,254.5Q63,204,93,170.5Q123,137,151.5,101.5Q180,66,229,43Q278,20,330,39Q382,58,391.5,114.5Q401,171,411.5,210.5Q422,250,434,301.5Z;
+
+                        M417,293Q414,336,397,387.5Q380,439,327,444.5Q274,450,218.5,464.5Q163,479,118.5,442.5Q74,406,54.5,354.5Q35,303,22.5,247Q10,191,69,166.5Q128,142,157.5,113.5Q187,85,231,65.5Q275,46,315,72.5Q355,99,389,129Q423,159,421.5,204.5Q420,250,417,293Z;
+                        "
+                ></animate>
+              </path>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------------------about----------------------- -->
+      <section class="about" id="about">
+        <div class="main-text">
+          <h2>About Me</h2>
+        </div>
+        <div class="abot">
+          <div class="img-about">
+            <img src="owen.jpg" alt="" />
+            <div class="info-about1">
+              <span>1.5+</span>
+              <p>Year of Experience</p>
+            </div>
+            <div class="info-about2">
+              <span>70+</span>
+              <p>Projects complete</p>
+            </div>
+            <div class="info-about3">
+              <span>15+</span>
+              <p>Simple Games</p>
+            </div>
+          </div>
+          <div class="about-content">
+            <span>Let me introduce myself</span>
+            <h3>A story of good</h3>
+            <p>
+              Front-end web development is the development of the graphical user
+              interface of a website through the use of HTML, CSS, and
+              JavaScript so users can view and interact with that
+              website.HyperText Markup Language (HTML) is the backbone of any
+              website development process, without which a web page does not
+              exist.Cascading Style Sheets (CSS) controls the presentation
+              aspect of the site and allows your site to have its own unique
+              look.JavaScript is an event-based imperative programming language
+              that is used to transform a static HTML page into a dynamic
+              interface.
+            </p>
+            <div class="btn-box">
+              <a href="#" class="btn">Read More!</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------------skills------------------------- -->
+      <section class="skills" id="skills">
+        <div class="main-text">
+          <h2>My Skills</h2>
+        </div>
+        <div class="sec">
+          <div class="skill-left">
+            <h1>Technical Skills</h1>
+            <div class="skill-bar">
+              <div class="info">
+                <p>HTML</p>
+                <p>90%</p>
+              </div>
+              <div class="bar">
+                <span class="html"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>CSS</p>
+                <p>85%</p>
+              </div>
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>JavaScript</p>
+                <p>78%</p>
+              </div>
+              <div class="bar">
+                <span class="javascript"></span>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="info">
+                <p>Python</p>
+                <p>59%</p>
+              </div>
+              <div class="bar">
+                <span class="python"></span>
+              </div>
+            </div>
+          </div>
+          <div class="rightskill">
+            <h1>Professional Skills</h1>
+            <div class="profesnal">
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="80"></div>
+                <div class="text">
+                  <big>80%</big>
+                  <small>Team Work</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                  <big>90%</big>
+                  <small>Creativity</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="72"></div>
+                <div class="text">
+                  <big>72%</big>
+                  <small>Comunication</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="64"></div>
+                <div class="text">
+                  <big>64%</big>
+                  <small>Project Management</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- --------------------------projects--------------------------------- -->
+      <section class="projects" id="projects">
+        <div class="main-text mai">
+          <h2 id="hed">My Projects</h2>
+          <ul>
+            <li class="swpB">Webpages</li>
+            <li class="swcB">Website Clone</li>
+            <li class="swaB">Api Projects</li>
+          </ul>
+        </div>
+        <div id="swp">
+          <div class="main-text">
+            <h2>Webpages</h2>
+          </div>
+          <div class="serbox webp">
+            <div class="sbox">
+              <img src="BENTLEYlp.png" alt="" />
+              <div class="hcont">
+                <h3>Bentlel Webpage</h3>
+                <p>
+                  Bentley Continental gt is a world class luxary car that is
+                  mostly look like Rolls Royace because i cant diffrentiate
+                  between bentley and continental simply.
+                </p>
+                <a href="http://127.0.0.1:5500/BintleyContinental/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="BENZlp.png" alt="" />
+              <div class="hcont">
+                <h3>Mercides Benz Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/MercidesBenz/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="BMWlp.png" alt="" />
+              <div class="hcont">
+                <h3>Bmw Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/BmwSeries/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="BUGATTIlp.png" alt="" />
+              <div class="hcont">
+                <h3>Bugatti Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/BugattiCars/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+
+            <div class="sbox">
+              <img src="DODGElp.png" alt="" />
+              <div class="hcont">
+                <h3>Dodge Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/DodgeChalenger/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="FERARRIlp.png" alt="" />
+              <div class="hcont">
+                <h3>Ferarri Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/farrariCars/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+
+            <div class="sbox">
+              <img src="LEMBOlp.png" alt="" />
+              <div class="hcont">
+                <h3>Lemborghini Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Lemborghini/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="MARVALlp.png" alt="" />
+              <div class="hcont">
+                <h3>Marvels Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/MarvalLanding/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox" id="less"></div>
+            <div class="sbox">
+              <img src="R8lp.png" alt="" />
+              <div class="hcont">
+                <h3>Audi R8 Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/AudiR8/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="ROLLSlp.png" alt="" />
+              <div class="hcont">
+                <h3>Rolls Royace Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/RollsRoyace/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="swc">
+          <div class="main-text">
+            <h2>Website Clone</h2>
+          </div>
+          <div class="serbox webc">
+            <div class="sbox">
+              <img src="AMAclo.png" alt="" />
+              <div class="hcont">
+                <h3>AMAZON Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Amazon/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="DISCORDlp.png" alt="" />
+              <div class="hcont">
+                <h3>Discord Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Discord/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="SALSElp.png" alt="" />
+              <div class="hcont">
+                <h3>Salseforce Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/salseforce/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+
+            <div class="sbox">
+              <img src="SLACKlp.png" alt="" />
+              <div class="hcont">
+                <h3>Slack Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Slack/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+
+            <div class="sbox">
+              <img src="ADOBElp.png" alt="" />
+              <div class="hcont">
+                <h3>Adobe Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/ADOBE/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="SPACEXlp.png" alt="" />
+              <div class="hcont">
+                <h3>SpaceX Webpage</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/spacex/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="swa">
+          <div class="main-text">
+            <h2>Api Projects</h2>
+          </div>
+          <div class="serbox weba">
+            <div class="sbox">
+              <img src="ALARMa.png" alt="" />
+              <div class="hcont">
+                <h3>Alarm Clock</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Alarm/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="DIGITALapp.png" alt="" />
+              <div class="hcont">
+                <h3>Digital Clock</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/DigitalClock/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="CARDMATCHapp.png" alt="" />
+              <div class="hcont">
+                <h3>Card Match Game</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/CARDMATCHapp/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="GOOGLEMAPPapp.png" alt="" />
+              <div class="hcont">
+                <h3>Google Maps App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/GoogleMaps/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="DOGAPIapp.png" alt="" />
+              <div class="hcont">
+                <h3>Random Dog Image</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Alarm/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="STORYAPIapp.png" alt="" />
+              <div class="hcont">
+                <h3>Random Story App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Alarm/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="BITAPIapp.png" alt="" />
+              <div class="hcont">
+                <h3>Daily Bitcoin Price</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Alarm/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="CIA.png" alt="" />
+              <div class="hcont">
+                <h3>Country Info App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/countryInfo/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="ISR.png" alt="" />
+              <div class="hcont">
+                <h3>Image Search Engine</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/imageSearchEngin/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="QUOTESapp.png" alt="" />
+              <div class="hcont">
+                <h3>Quotes App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/Quote/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="TVCa.png" alt="" />
+              <div class="hcont">
+                <h3>Text Voice Convertor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/TextVoiceConter/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+            <div class="sbox">
+              <img src="SPSgame.png" alt="" />
+              <div class="hcont">
+                <h3>Stone Paper Sissor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia temporibus, fugiat fugit minus sequi corrupti et,
+                  nulla quam quod commodi vitae. Vel dicta magnam eveniet
+                  temporibus, molestiae nostrum! Debitis, cumque.
+                </p>
+                <a href="http://127.0.0.1:5500/stonePaperScissor/index.html"
+                  ><button>see now</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ----------------------contact---------------------------- -->
+      <section class="contact" id="contact">
+        <div class="main-text">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="contact-right">
+              <form>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Massage"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <div class="btn-box">
+                  <a type="submit" class="btn">Send Message</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright @ <b>SAMRAT</b> Made with
+            <i class="fa-solid fa-heart"></i> by Incredible! Coder
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- ------------------------------------------------js links----------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
